@@ -1,11 +1,13 @@
-Name : Sheikh Iftikharun Nisa
-ID : 2105069
-TOPIC : 20 — Unsupervised Learning, Clustering, K-means
+**Name** : Sheikh Iftikharun Nisa
+
+**ID** : 2105069
+
+**TOPIC** : 20 — Unsupervised Learning, Clustering, K-means
 
 
 LLM Used : Chatgpt (GPT-5.4 Thinking)
 
-# Approach Summary
+## Approach Summary
 
 I first generated the lecture note, theory assessment, and coding assessment using the provided system prompt and module-specific prompts as the main scaffolding. The initial outputs were structurally strong and covered most of the required components, but after reading through them carefully, I manually reviewed them end to end to make them feel more natural, more pedagogically sound, and better aligned with the intended course context.
 
