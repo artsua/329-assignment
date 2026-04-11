@@ -91,9 +91,9 @@ Imagine that we want to divide students into study-behavior groups using feature
 K-means tries to place **K representative centers** in the dataset and assign each point to the nearest center. Then it updates the centers to better represent the assigned points. This repeats until the assignments stabilize.
 
 #### 3.2 Objective function
-K-means tries to minimize the **within-cluster sum of squares** (WCSS), also called inertia.
+K-means tries to minimize the **within-cluster sum of squares (WCSS)**, also called **inertia**.
 
-If there are K clusters \(C_1, C_2, \dots, C_K\) with centroids \(\mu_1, \mu_2, \dots, \mu_K\), then K-means minimizes:
+If there are \(K\) clusters \(C_1, C_2, \dots, C_K\) with centroids \(\mu_1, \mu_2, \dots, \mu_K\), then K-means minimizes:
 
 \[
 \sum_{k=1}^{K} \sum_{x_i \in C_k} \|x_i - \mu_k\|^2
