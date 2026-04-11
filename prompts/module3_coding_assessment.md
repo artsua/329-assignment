@@ -93,4 +93,4 @@ IMPORTANT:
 - Code must be clean and readable
 - No hardcoded magic values
 - Must run without modification
-- Use only standard libraries + xgboost + sklearn
+- Use only standard libraries

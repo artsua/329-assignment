@@ -76,16 +76,31 @@ All things considered, this is an excellent draft that just needs a few minor ad
 
 ## Module 3 Review
 
-Issues:
-- Missing reproducibility (seed)
-- No tuning function
+---
 
-Fix:
-- Added SEED constant
-- Added hyperparameter tuning function
+## Review 1
+**Issue:** The updated coding files are still a bit too polished and version-specific.
+
+**Rationale:** The overall structure is strong, but headers like Python 3.14+ and scikit-learn 1.8+ feel less like a practical course handout and more like generated output. This can make students worry about unnecessary compatibility issues.
+
+**Correction:** Use more realistic version targets such as Python 3.10+ with numpy 1.24+, scikit-learn 1.3+, and matplotlib 3.7+.
 
 ---
 
-## Final Improvements
-- Better alignment across modules
-- Improved clarity and depth
+## Review 2
+**Issue:** The original prompt required a train/validation/test split, but the prior version did not actually implement one.
+
+**Rationale:** For clustering, full-dataset exploration is common in class examples, but once the prompt explicitly asks for a split, the assessment should either include it or explain why it is omitted.
+
+**Correction:** Add a simple split-based workflow and fit scaling on the training split only, then use validation for choosing K and test for final checking.
+
+---
+
+## Review 3
+**Issue:** The Create coverage was previously concentrated too heavily in a single task.
+
+**Rationale:** T6 was a valid Create task, but it alone carried most of the synthesis burden. The assessment feels more balanced if students also design or propose improvements based on earlier findings.
+
+**Correction:** Add a short Create-style task that asks for concrete workflow improvement suggestions grounded in the outputs of the comparison, stability, and audit steps.
+
+---
