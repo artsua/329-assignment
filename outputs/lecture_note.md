@@ -27,13 +27,14 @@ Common distance measure:
 A smaller distance means the points are more similar under this metric.
 
 #### 1.3 Mean and centroid
+
 The **mean** of a set of points is their average. In clustering, the mean of all points assigned to a cluster is called the **centroid**.
 
-If a cluster contains points \(x^{(1)}, x^{(2)}, \dots, x^{(m)}\), then its centroid is:
+If a cluster contains points $x^{(1)}, x^{(2)}, \dots, x^{(m)}$, then its centroid is:
 
-\[
+$$
 \mu = \frac{1}{m}\sum_{i=1}^{m}x^{(i)}
-\]
+$$
 
 #### 1.4 Feature scaling
 If one feature is measured in very large units and another in very small units, the large-scale feature can dominate distance calculations.
@@ -90,14 +91,15 @@ Imagine that we want to divide students into study-behavior groups using feature
 
 K-means tries to place **K representative centers** in the dataset and assign each point to the nearest center. Then it updates the centers to better represent the assigned points. This repeats until the assignments stabilize.
 
-#### 3.2 Objective function
+### 3.2 Objective function
+
 K-means tries to minimize the **within-cluster sum of squares (WCSS)**, also called **inertia**.
 
-If there are \(K\) clusters \(C_1, C_2, \dots, C_K\) with centroids \(\mu_1, \mu_2, \dots, \mu_K\), then K-means minimizes:
+If there are $K$ clusters $C_1, C_2, \dots, C_K$ with centroids $\mu_1, \mu_2, \dots, \mu_K$, then K-means minimizes:
 
-\[
+$$
 \sum_{k=1}^{K} \sum_{x_i \in C_k} \|x_i - \mu_k\|^2
-\]
+$$
 
 This means:
 - each point should be close to its cluster center
