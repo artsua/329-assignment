@@ -19,11 +19,11 @@ Clustering methods depend heavily on the idea that “similar” points should b
 Common distance measure:
 
 - **Euclidean distance** between two points `x` and `z`:
-
+$$
 \[
 \|x-z\|_2 = \sqrt{\sum_{j=1}^{p}(x_j-z_j)^2}
 \]
-
+$$
 A smaller distance means the points are more similar under this metric.
 
 #### 1.3 Mean and centroid
