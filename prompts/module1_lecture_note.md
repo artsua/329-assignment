@@ -1,7 +1,7 @@
 Using the system instructions, generate a COMPLETE lecture note for:
 
 TOPIC = {{TOPIC}}
-
+The content should be in
 The lecture must be structured into THREE mandatory sections:
 
 --------------------------------------------------
@@ -76,6 +76,9 @@ Must include:
 IMPORTANT:
 - Do NOT write generic ethics
 - Ethics must be specific to {{TOPIC}}
+- Do NOT mention "the uploaded slides/content" 
+- Generate the content with the help of the lecture slide/content ATTACHED
+- You Do NOT need to refer to the slides/content in YOUR PRODUCED EDUCATIONAL MATERIAL
 
 --------------------------------------------------
 FINAL REQUIREMENT:

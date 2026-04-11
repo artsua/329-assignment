@@ -1,6 +1,6 @@
 Generate a THEORY ASSESSMENT FOR:
 
-TOPIC = "Ensembles of Trees (XGBoost)"
+TOPIC = "Unsupervised Learning, Clustering, K-means"
 
 Using the lecture note generated for {{TOPIC}} as the ONLY source of truth.
 
